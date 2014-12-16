@@ -35,19 +35,60 @@
 			</ul>
 		</div>
 		<div id="content">
-			<h1>Welcome to RD Microprocessor Center</h1>
-			<h3>Serving Worldwide</h3>
-			<p>We're dedicated to making sure your business is as comfortable as possible.</p>
-			<p>Whether you need to repair, replace, upgrade, or even add a new system, our products are designed to make you more comfortable.
-			We have the knowledge and expertise to help you choose the right product to meet your hands so that you benefit from increased
-			efficiency, reliability, and control of your businesses' environment.</p>
-				<ul>
-					<li>Trained and experienced engineers, technicians and installers</li>
-					<li>Trouble-free installation and service calls</li>
-					<li>TQM: Total Quality Program</li>
-					<li>Exceptional customer service from start to finish</li>
-					<li>Service and preventive maintenance contracts</li>
-				</ul>
+			<h1>Contact Us</h1>
+			<form name="contactform" method="post" action="form.php">
+			<table width="450px">
+			</tr>
+			<tr>
+				<td valign="top">
+					<label for="first_name">First Name</label>
+				</td>
+ 				<td valign="top">
+					<input  type="text" name="first_name" maxlength="50" size="30">
+				</td>
+			</tr>
+ 
+			<tr>
+				<td valign="top"">
+					<label for="last_name">Last Name</label>
+				</td>
+				<td valign="top">
+					<input  type="text" name="last_name" maxlength="50" size="30">
+				</td>
+			</tr>
+			<tr>
+				<td valign="top">
+					<label for="email">Email Address </label>
+ 				</td>
+				<td valign="top">
+					<input  type="text" name="email" maxlength="80" size="30">
+				</td>
+ 
+			</tr>
+			<tr>
+				<td valign="top">
+					<label for="telephone">Phone</label>
+				</td>
+				<td valign="top">
+					<input  type="text" name="telephone" maxlength="30" size="30">
+				</td>
+			</tr>
+			<tr>
+				<td valign="top">
+					<label for="comments">Comments</label>
+				</td>
+				<td valign="top">
+					<textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+				</td>
+ 
+			</tr>
+			<tr>
+				<td colspan="2" style="text-align:center">
+					<input type="submit" value="Submit">
+				</td>
+			</tr>
+			</table>
+			</form>
 		</div>
 		<div id="footer"></div>
 
@@ -65,3 +106,4 @@
         </script>
     </body>
 </html>
+
