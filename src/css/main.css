@@ -93,7 +93,66 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+#wrapper {
+	width: 960px;
+	background-color: green;
+	margin-left: auto;
+	margin-right: auto;
+}
+#branding {
+	background-color: white;
+}
+#menu {
+	width: 960px;
+}
 
+#menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#menu li {
+	float:left;
+}
+#menu li a {
+	display: block;
+	width: 182px;
+	background-color: #d3d3d3;
+	color: black;
+	font-family: Helvetica Bold;
+	text-decoration:none;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 5px;
+}
+#content {
+	background-color: white;
+	width: 960px;
+	float: left;
+}
+.h1 {
+	color: #55555;
+}
+.h3 {
+	color: black;
+}
+
+.p {
+	font-family: Helvetica Bold;
+	font-size: 15px;
+	text-align: justify;
+}
+table, th, td {
+	border: 1px solid white;
+	border-collapse: collapse;
+}
+th, td {
+	padding: 10px;
+}
+#footer {
+	clear: both;
+}
 
 
 
